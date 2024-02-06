@@ -6,7 +6,7 @@ Apply everything you've learned so far on how to use ChatGPT, to solve all the b
 ## Installation and running
 In your terminal, enter the following commands:
 ```
-git clone ...
+git clone https://github.com/itaiperi/genai-workshop-troubleshooting-exercise.git
 npm install
 npm start
 ```
