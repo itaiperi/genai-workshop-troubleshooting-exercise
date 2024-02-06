@@ -1,0 +1,17 @@
+{
+  "name": "critical-bugs-web-app",
+  "version": "1.0.0",
+  "description": "A simple movies libraries web app with critical bugs for troubleshooting exercise",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "ejs": "^3.1.9",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}

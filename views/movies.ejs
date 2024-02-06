@@ -1,0 +1,14 @@
+<!-- views/movies.ejs -->
+<h1>My Liked Movies</h1>
+<ul>
+  <% [].forEach(function(movie) { %>
+    <li>
+      <p>
+        <strong>
+          <%= movie.title %>
+        </strong>
+      </p>
+      <img src="/images/<%= movie.imageurl %>" alt="<%= movie.title %> Image" height="200">
+    </li>
+    <% }); %>
+</ul>
