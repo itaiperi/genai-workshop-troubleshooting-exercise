@@ -11,7 +11,10 @@ npm install
 npm start
 ```
 
-Then, go to `http://localhost:3001``, and start debugging 🐞🚫
+Then, go to `http://localhost:3001`, and start debugging 🐞🚫
 
 ## Important notes
-The test username and password are `user` and `password`.
+* The server listens to changes you make to the code, so no need to restart the server.
+* The test username and password are `user` and `password`.
+* The end result should look something like:
+![image](./final_result.png)
